@@ -2,9 +2,10 @@
   "name": "yt-dlbot",
   "version": "0.1.0",
   "description": "Telegram bot for using yt-dlp",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Unimplemented\" && false"
+    "test": "echo \"Unimplemented\" && false",
+    "dev": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/VonLatvala/yt-dlbot/issues"
   },
-  "homepage": "https://github.com/VonLatvala/yt-dlbot#readme"
+  "homepage": "https://github.com/VonLatvala/yt-dlbot#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.63.0",
+    "winston": "^3.13.0"
+  }
 }
