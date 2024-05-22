@@ -1,0 +1,26 @@
+{
+  "name": "yt-dlbot",
+  "version": "0.1.0",
+  "description": "Telegram bot for using yt-dlp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Unimplemented\" && false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VonLatvala/yt-dlbot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegram-bot",
+    "yt-dlp",
+    "youtube"
+  ],
+  "author": "VonLatvala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VonLatvala/yt-dlbot/issues"
+  },
+  "homepage": "https://github.com/VonLatvala/yt-dlbot#readme"
+}
